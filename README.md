@@ -19,8 +19,8 @@
 ## 📫 Connect With Me
 - LinkedIn: www.linkedin.com/in/4kashdhanwate
 - Instagram: https://www.instagram.com/ur_4kash
-- GitHub:# 👋 Hi, I'm Akash Dhanwate
-
+- GitHub:Akash-Dhanwate
+- 
 🎓 I'm a B.Tech student in Artificial Intelligence & Data Science  
 💻 Learning Python, Machine Learning, and building real-world projects  
 📌 I use GitHub to share what I'm learning and building  
