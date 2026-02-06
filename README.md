@@ -47,9 +47,9 @@
 
 ## 📊 GitHub Stats
 
-![Akash's GitHub stats](https://github-readme-stats.vercel.app/api?username=Aakash-Dhanwate&show_icons=true&theme=tokyonight)
+![Akash's GitHub stats](https://github-readme-stats.vercel.app/api?username=Akash-Dhanwate&show_icons=true&theme=tokyonight)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Aakash-Dhanwate&layout=compact&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Akash-Dhanwate&layout=compact&theme=tokyonight)
 
 ---
 
