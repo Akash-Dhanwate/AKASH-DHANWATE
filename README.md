@@ -68,7 +68,7 @@
 
 - 💼 LinkedIn: www.linkedin.com/in/4kashdhanwate  
 - 📷 Instagram: https://www.instagram.com/ur_4kash  
-- 🧑‍💻 GitHub: https://github.com/Aakash-Dhanwate  
+- 🧑‍💻 GitHub: https://github.com/Akash-Dhanwate  
 
 ---
 
