@@ -1,28 +1,77 @@
 # 👋 Hi, I'm Akash Dhanwate
-🎓 I'm a B.Tech student in Artificial Intelligence & Data Science  
-💻 Learning Python, Machine Learning, and building real-world projects  
-📌 I use GitHub to share what I'm learning and building  
-🚀 My goal: Become a top developer in AI and crack ₹60+ LPA roles
 
-## 🛠️ Tech Stack
-- Python, C/C++
-- Git, GitHub
-- VS Code, Colab, Jupyter
+🎓 B.Tech Student | Artificial Intelligence & Data Science  
+💡 Passionate about AI, Machine Learning & Building Real-World Projects  
+🚀 Focused on becoming a high-impact AI Engineer  
+
+---
+
+## 🧠 About Me
+
+- 🎯 Currently learning: Machine Learning, APIs, Data Science
+- 💻 Love building small tools that solve real problems
+- 📈 Improving coding skills daily through projects
+- 🛠 Exploring AI + Web + Automation
+
+---
+
+## ⚙️ Tech Stack
+
+### 💻 Languages
+- Python
+- C / C++
 - JavaScript
-- HTML , CSS , Node.js
-  
 
-## 📈 My Learning Journey
-- ✅ Python basics complete
-- ✅ Built a calculator project
-- 🔄 Currently exploring data science & GitHub projects
-- 🔒 Currently i was exploring the API'S
-- 🔜 Starting Chrome Extension & AI mini projects
+### 🌐 Web
+- HTML
+- CSS
+- Node.js
 
-## 📫 Connect With Me
-- LinkedIn: www.linkedin.com/in/4kashdhanwate
-- Instagram: https://www.instagram.com/ur_4kash
-- GitHub: https://github.com/Aakash-Dhanwate/AKASH-DHANWATE
+### 🧪 Tools & Platforms
+- Git & GitHub
+- VS Code
+- Google Colab
+- Jupyter Notebook
 
+---
 
+## 🚀 Projects
 
+🔹 Calculator App  
+- Built using Python  
+- Practiced logic building & problem solving  
+
+🔹 More AI & Data Science Projects Coming Soon...
+
+---
+
+## 📊 GitHub Stats
+
+![Akash's GitHub stats](https://github-readme-stats.vercel.app/api?username=Aakash-Dhanwate&show_icons=true&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Aakash-Dhanwate&layout=compact&theme=tokyonight)
+
+---
+
+## 📈 Learning Roadmap
+
+- ✅ Python Basics  
+- ✅ First Project Completed  
+- 🔄 Learning APIs & Data Handling  
+- 🔜 Chrome Extensions  
+- 🔜 Machine Learning Mini Projects  
+- 🔜 AI-Based Projects  
+
+---
+
+## 🌐 Connect With Me
+
+- 💼 LinkedIn: www.linkedin.com/in/4kashdhanwate  
+- 📷 Instagram: https://www.instagram.com/ur_4kash  
+- 🧑‍💻 GitHub: https://github.com/Aakash-Dhanwate  
+
+---
+
+## ⚡ Goal
+
+Become a strong AI Engineer and build impactful real-world systems.
