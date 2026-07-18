@@ -1,7 +1,7 @@
 # Akash Dhanwate
 
 <div align="center">
-  <img src="./assets/akash-cosmic-banner.svg" alt="Animated cloudy space and sci-fi banner for Akash Dhanwate" width="100%" />
+  <img src="akash-cosmic-banner.svg" alt="Animated cloudy space and sci-fi banner for Akash Dhanwate" width="100%" />
 
   <br />
 
