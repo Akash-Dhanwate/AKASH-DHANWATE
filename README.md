@@ -28,7 +28,7 @@
   <tr>
     <td width="58%" valign="top">
       <strong>Current profile</strong><br><br>
-      B.Tech Artificial Intelligence and Data Science student at <strong>Sanjivani University</strong>. I am in <strong>3rd Year</strong> with a <strong>CGPA of 8.5</strong>, building projects across machine learning, full stack development, automation, and open-source learning.
+      B.Tech Artificial Intelligence and Data Science student at <strong>Sanjivani University</strong>. I am in <strong>2nd Year</strong> with a <strong>CGPA of 8.5</strong>, building projects across machine learning, full stack development, automation, and open-source learning.
       <br><br>
       <strong>Motto:</strong> Code | Learn | Build | Repeat
     </td>
