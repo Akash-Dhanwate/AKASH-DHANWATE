@@ -106,10 +106,12 @@ A full-stack analytics platform that pulls live GitHub data via the GraphQL API 
 
 ---
 
-### 🏆 Trophies
+### ⌥ Contact With ME ❥
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=akash-dhanwate&theme=darkhub&no-frame=true&row=1&column=6" />
+  <a href="mailto:akashdhanawate117@gmail.com"><img src="https://img.shields.io/badge/Email-akashdhanawate117%40gmail.com-0b0711?style=for-the-badge&logo=gmail&logoColor=white&labelColor=7e22ce" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/4kashdhanwate"><img src="https://img.shields.io/badge/LinkedIn-4kashdhanwate-0b0711?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=7e22ce" alt="LinkedIn"></a>
+  <a href="https://github.com/Akash-Dhanwate"><img src="https://img.shields.io/badge/GitHub-Akash--Dhanwate-0b0711?style=for-the-badge&logo=github&logoColor=white&labelColor=7e22ce" alt="GitHub"></a>
 </div>
 
 ---
