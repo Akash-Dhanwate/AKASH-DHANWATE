@@ -83,8 +83,8 @@ A full-stack analytics platform that pulls live GitHub data via the GraphQL API 
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=akash-dhanwate&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=akash-dhanwate&layout=compact&theme=tokyonight&hide_border=true" />
+<!-- <img height="165" src="https://github-readme-stats.vercel.app/api?username=akash-dhanwate&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=akash-dhanwate&layout=compact&theme=tokyonight&hide_border=true" /> -->
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=akash-dhanwate&theme=tokyonight&hide_border=true" />
 
@@ -97,10 +97,12 @@ A full-stack analytics platform that pulls live GitHub data via the GraphQL API 
 ### 🐍 Contribution Snake
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/akash-dhanwate/akash-dhanwate/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Akash-Dhanwate/AKASH-DHANWATE/output/github-snake-light.svg?v=1">
+    <img src="https://raw.githubusercontent.com/Akash-Dhanwate/AKASH-DHANWATE/output/github-snake-dark.svg?v=1" alt="Purple neon GitHub contribution snake" width="100%">
+  </picture>
 </div>
 
-> ⚠️ The snake animation needs a one-time GitHub Action set up in your profile repo — see the setup note below.
 
 ---
 
