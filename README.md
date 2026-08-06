@@ -22,9 +22,9 @@
 
 ```yaml
 name: Akash Suresh Dhanwate
-role: B.Tech Student — Information Technology (AI/ML & Data Science)
-university: Sanjivani University, Aurangabad, Maharashtra
-year: 3rd Year
+role: B.Tech Student — Artificial Intelligence and Data Science (AI/ML & Data Science)
+university: Sanjivani University, Kopargon, Maharashtra
+year: 2rd Year
 focus: [Machine Learning, Full-Stack Development, DSA, System Design]
 mission: "Building a portfolio strong enough to walk into top product companies"
 fun_fact: "Iron Man fan — I like my code like Tony likes his suits: over-engineered, but it works."
