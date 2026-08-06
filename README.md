@@ -11,7 +11,7 @@
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/4kashdhanwate)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/akash_dhanwate)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/akash_dhanwate7)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/akash-dhanwate)
 
 </div>
@@ -40,7 +40,7 @@ fun_fact: "Iron Man fan — I like my code like Tony likes his suits: over-engin
 
 ### 🧰 Tech Arsenal
 
-<div align="center">
+<!-- <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -60,6 +60,26 @@ fun_fact: "Iron Man fan — I like my code like Tony likes his suits: over-engin
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
+
+</div> -->
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-0b0711?style=for-the-badge&logo=python&logoColor=ff4fd8)
+![Java](https://img.shields.io/badge/Java-0b0711?style=for-the-badge&logo=openjdk&logoColor=f0abfc)
+![C++](https://img.shields.io/badge/C%2B%2B-0b0711?style=for-the-badge&logo=cplusplus&logoColor=c084fc)
+![JavaScript](https://img.shields.io/badge/JavaScript-0b0711?style=for-the-badge&logo=javascript&logoColor=f472b6)
+![HTML5](https://img.shields.io/badge/HTML5-0b0711?style=for-the-badge&logo=html5&logoColor=ff4fd8)
+![CSS3](https://img.shields.io/badge/CSS3-0b0711?style=for-the-badge&logo=css3&logoColor=c084fc)
+![React](https://img.shields.io/badge/React-0b0711?style=for-the-badge&logo=react&logoColor=f0abfc)
+![Next.js](https://img.shields.io/badge/Next.js-0b0711?style=for-the-badge&logo=nextdotjs&logoColor=ffffff)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-0b0711?style=for-the-badge&logo=tailwindcss&logoColor=ff4fd8)
+![FastAPI](https://img.shields.io/badge/FastAPI-0b0711?style=for-the-badge&logo=fastapi&logoColor=c084fc)
+![NumPy](https://img.shields.io/badge/NumPy-0b0711?style=for-the-badge&logo=numpy&logoColor=f0abfc)
+![Pandas](https://img.shields.io/badge/Pandas-0b0711?style=for-the-badge&logo=pandas&logoColor=ff4fd8)
+![Scikit--learn](https://img.shields.io/badge/Scikit--learn-0b0711?style=for-the-badge&logo=scikitlearn&logoColor=f472b6)
+![PyTorch](https://img.shields.io/badge/PyTorch-0b0711?style=for-the-badge&logo=pytorch&logoColor=ff4fd8)
+![Git](https://img.shields.io/badge/Git-0b0711?style=for-the-badge&logo=git&logoColor=f0abfc)
+![Linux](https://img.shields.io/badge/Linux-0b0711?style=for-the-badge&logo=linux&logoColor=ffffff)
 
 </div>
 
