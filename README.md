@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Akash%20Dhanwate&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI/ML%20%7C%20Data%20Science%20%7C%20Full-Stack&descAlignY=58&descSize=18" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=AKASH%20DHANWATE&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI/ML%20%7C%20Data%20Science%20%7C%20Full-Stack&descAlignY=58&descSize=18" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&width=600&lines=B.Tech+IT+%7C+AI%2FML+%26+Data+Science;Building+the+GitHub+Metrics+Dashboard;Full-Stack+Dev+%7C+FastAPI+%2B+Next.js;DSA+in+C%2B%2B+%26+Python;%22Sometimes+you+gotta+run+before+you+can+walk%22" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&width=600&lines=B.Tech+IT+%7C+AI%2FML+%26+Data+Science;Building+the+GitHub+Metrics+Dashboard;Full-Stack+Dev+%7C+FastAPI+%2B+Next.js;DSA+in+C%2B%2B+%26+Python;" />
 </a>
 
 </div>
