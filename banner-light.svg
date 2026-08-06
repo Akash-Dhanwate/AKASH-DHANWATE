@@ -113,7 +113,7 @@
     <g class="heart" style="animation-delay:2.1s" opacity=".8"><path d="M628 632c-8-12-28-4-23 12 4 12 23 22 23 22s19-10 23-22c5-16-15-24-23-12z" fill="#7e22ce" opacity=".34"/></g>
 
     <rect x="52" y="44" width="435" height="48" rx="14" fill="rgba(255,255,255,.72)" stroke="#c026d3" stroke-opacity=".35"/>
-    <g clip-path="url(#terminalType)"><text x="72" y="75" class="mono terminal" fill="#26113a">user@dev:~$ cat README.md</text></g>
+    <g clip-path="url(#terminalType)"><text x="72" y="75" class="mono terminal" fill="#26113a">Mac@akash:~$ cat README.md</text></g>
     <rect class="terminalCursor" x="446" y="55" width="10" height="26" rx="2" fill="#d946ef"/>
 
     <g transform="translate(62 114) scale(.76)" fill="url(#nameGradient)" filter="url(#glow)">
@@ -144,21 +144,21 @@
       <g class="pill" style="animation-delay:1.40s"><rect class="pillBox" x="82" y="318" width="82" height="35" rx="17.5" fill="rgba(126,34,206,.07)" stroke="#c026d3" stroke-opacity=".42"/><text x="104" y="341" class="label" fill="#26113a">Python</text></g>
       <g class="pill" style="animation-delay:1.54s"><rect class="pillBox" x="178" y="318" width="82" height="35" rx="17.5" fill="rgba(126,34,206,.07)" stroke="#c026d3" stroke-opacity=".42"/><text x="200" y="341" class="label" fill="#26113a">Java</text></g>
       <g class="pill" style="animation-delay:1.68s"><rect class="pillBox" x="274" y="318" width="82" height="35" rx="17.5" fill="rgba(126,34,206,.07)" stroke="#c026d3" stroke-opacity=".42"/><text x="296" y="341" class="label" fill="#26113a">C++</text></g>
-      <g class="pill" style="animation-delay:1.82s"><rect class="pillBox" x="370" y="318" width="92" height="35" rx="17.5" fill="rgba(126,34,206,.07)" stroke="#c026d3" stroke-opacity=".42"/><text x="392" y="341" class="label" fill="#26113a">JavaScript</text></g>
-      <g class="pill" style="animation-delay:1.96s"><rect class="pillBox" x="466" y="318" width="82" height="35" rx="17.5" fill="rgba(126,34,206,.07)" stroke="#c026d3" stroke-opacity=".42"/><text x="488" y="341" class="label" fill="#26113a">React</text></g>
-      <g class="pill" style="animation-delay:2.10s"><rect class="pillBox" x="562" y="318" width="82" height="35" rx="17.5" fill="rgba(126,34,206,.07)" stroke="#c026d3" stroke-opacity=".42"/><text x="584" y="341" class="label" fill="#26113a">Next.js</text></g>
-      <g class="pill" style="animation-delay:2.24s"><rect class="pillBox" x="658" y="318" width="82" height="35" rx="17.5" fill="rgba(126,34,206,.07)" stroke="#c026d3" stroke-opacity=".42"/><text x="680" y="341" class="label" fill="#26113a">FastAPI</text></g>
-      <g class="pill" style="animation-delay:2.38s"><rect class="pillBox" x="754" y="318" width="82" height="35" rx="17.5" fill="rgba(126,34,206,.07)" stroke="#c026d3" stroke-opacity=".42"/><text x="776" y="341" class="label" fill="#26113a">PyTorch</text></g>
+      <g class="pill" style="animation-delay:1.82s"><rect class="pillBox" x="370" y="318" width="98" height="35" rx="17.5" fill="rgba(126,34,206,.07)" stroke="#c026d3" stroke-opacity=".42"/><text x="390" y="341" class="label" fill="#26113a">JavaScript</text></g>
+      <g class="pill" style="animation-delay:1.96s"><rect class="pillBox" x="466" y="318" width="82" height="35" rx="17.5" fill="rgba(126,34,206,.07)" stroke="#c026d3" stroke-opacity=".42"/><text x="487" y="341" class="label" fill="#26113a">React</text></g>
+      <g class="pill" style="animation-delay:2.10s"><rect class="pillBox" x="562" y="318" width="82" height="35" rx="17.5" fill="rgba(126,34,206,.07)" stroke="#c026d3" stroke-opacity=".42"/><text x="582" y="341" class="label" fill="#26113a">Next.js</text></g>
+      <g class="pill" style="animation-delay:2.24s"><rect class="pillBox" x="658" y="318" width="82" height="35" rx="17.5" fill="rgba(126,34,206,.07)" stroke="#c026d3" stroke-opacity=".42"/><text x="679" y="341" class="label" fill="#26113a">FastAPI</text></g>
+      <g class="pill" style="animation-delay:2.38s"><rect class="pillBox" x="754" y="318" width="82" height="35" rx="17.5" fill="rgba(126,34,206,.07)" stroke="#c026d3" stroke-opacity=".42"/><text x="775" y="341" class="label" fill="#26113a">PyTorch</text></g>
     </g>
 
     <g class="sans">
       <rect x="72" y="378" width="590" height="96" rx="20" fill="rgba(255,255,255,.72)" stroke="#c026d3" stroke-opacity=".32"/>
-      <g clip-path="url(#quoteType)"><text x="92" y="416" class="body" fill="#26113a">Building intelligent solutions through AI, code, and continuous learning.</text><text x="92" y="447" class="small" fill="#6b3a85">Code | Learn | Build | Repeat  //  Keep Coding Keep Growing.</text></g>
+      <g clip-path="url(#quoteType)"><text x="92" y="416" class="body" fill="#26113a">Building solutions , code, and continuous learning.</text><text x="92" y="447" class="small" fill="#6b3a85">Code | Learn | Build | Repeat  //  Keep Coding Keep Growing.</text></g>
     </g>
 
     <g class="sans" fill="#6b3a85">
       <text x="82" y="515" class="body" fill="#26113a">About Me</text>
-      <text x="82" y="546" class="small">AI &amp; DS student at Sanjivani University | 3rd Year | CGPA 8.5</text>
+      <text x="82" y="546" class="small">AI &amp; DS student at Sanjivani University | 2rd Year | CGPA 8.5</text>
       <text x="82" y="575" class="small">Building ML, full-stack, automation, and open-source learning projects.</text>
       <text x="82" y="604" class="small">Focused on clean, scalable, maintainable code and real-world problem solving.</text>
     </g>
@@ -187,10 +187,9 @@
         <text x="816" y="604" clip-path="url(#code3)" fill="#db2777">code();</text>
         <text x="816" y="632" clip-path="url(#code4)" fill="#7e22ce">build();</text>
         <text x="816" y="660" clip-path="url(#code5)">innovate();</text>
-        <text x="816" y="688" clip-path="url(#code6)">contribute();</text>
-        <text x="816" y="716" clip-path="url(#code7)">repeat();</text>
+        <text x="816" y="688" clip-path="url(#code6)">contribute(); | repeat();</text>
       </g>
-      <text x="1040" y="694" text-anchor="middle" class="sans label neon" fill="#d946ef" filter="url(#glow)">KEEP CODING KEEP GROWING</text>
+      <text x="1090" y="694" text-anchor="middle" class="sans label neon" fill="#d946ef" filter="url(#glow)"> AKASH</text>
     </g>
 
     <rect class="scanner" x="18" y="-90" width="1244" height="82" fill="url(#shine)" opacity=".28"/>
