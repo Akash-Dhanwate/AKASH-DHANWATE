@@ -109,7 +109,7 @@ A full-stack analytics platform that pulls live GitHub data via the GraphQL API 
 <!-- <img src="https://github-readme-streak-stats.herokuapp.com/?user=akash-dhanwate&theme=tokyonight&hide_border=true" /> -->
 <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com/?user=akash-dhanwate&theme=tokyonight&hide_border=true" alt="GitHub Streak" /></a>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=akash-dhanwate&theme=tokyo-night&hide_border=true" width="100%"/>
+<!-- <img src="https://github-readme-activity-graph.vercel.app/graph?username=akash-dhanwate&theme=tokyo-night&hide_border=true" width="100%"/> -->
 
 </div>
 
