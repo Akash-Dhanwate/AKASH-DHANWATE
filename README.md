@@ -128,7 +128,7 @@ A full-stack analytics platform that pulls live GitHub data via the GraphQL API 
     media="(prefers-color-scheme: light)"
     srcset="https://raw.githubusercontent.com/Akash-Dhanwate/AKASH-DHANWATE/output/github-snake-light.svg?v=1">
   <img
-    src="https://raw.githubusercontent.com/Akash-Dhanwate/AKASH-DHANWATE/output/github-snake-dark.svg?v=1"
+    src="https://raw.githubusercontent.com/Akash-Dhanwate/AKASH-DHANWATE/output/github-snake-light.svg?v=1"
     alt="Purple neon GitHub contribution snake"
     width="100%">
 </picture>
