@@ -5,14 +5,19 @@
   <img src="./assets/hero.svg" alt="Akash Dhanwate — Build with intent. A dimensional glass AD monogram." width="100%">
 </picture>
 
-**B.Tech AI & Data Science** · Sanjivani University, India.
-
 <p>
   <a href="mailto:akashdhanawate117@gmail.com"><img src="./assets/links/email.svg" alt="Email Akash Dhanwate" height="37" width="132"></a>
   <a href="https://www.linkedin.com/in/4kashdhanwate"><img src="./assets/links/linkedin.svg" alt="Connect with Akash on LinkedIn" height="37" width="132"></a>
   <a href="https://github.com/Akash-Dhanwate"><img src="./assets/links/github.svg" alt="Explore Akash’s GitHub repositories" height="37" width="132"></a>
   <a href="https://x.com/akash_dhanwate7"><img src="./assets/links/x.svg" alt="Follow Akash on X" height="37" width="146"></a>
 </p>
+
+## About me
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/about-mobile.svg">
+  <img src="./assets/about.svg" alt="About Akash Suresh Dhanwate: B.Tech AI and Data Science at Sanjivani University, Maharashtra, India. Building GitHub Metrics; learning ML and statistics; focused on full-stack development and DSA. Long-term goal: software or ML engineering at Google or Microsoft. Iron Man fan." width="100%">
+</picture>
 
 ## Selected work
 
@@ -56,26 +61,49 @@
 
 ## Toolkit
 
+**Languages**
+
 <p>
   <img src="./assets/skills/python.svg" alt="Python skill logo" width="90" height="98">
+  <img src="./assets/skills/java.svg" alt="Java tooling logo, represented by OpenJDK" width="90" height="98">
+  <img src="./assets/skills/cplusplus.svg" alt="C++ programming skill logo" width="90" height="98">
+  <img src="./assets/skills/javascript.svg" alt="JavaScript skill logo" width="90" height="98">
   <img src="./assets/skills/typescript.svg" alt="TypeScript skill logo" width="90" height="98">
+</p>
+
+**Web & APIs**
+
+<p>
+  <img src="./assets/skills/html5.svg" alt="HTML5 web development logo" width="90" height="98">
+  <img src="./assets/skills/css3.svg" alt="CSS3 skill tile with the CSS logo" width="90" height="98">
   <img src="./assets/skills/react.svg" alt="React skill logo" width="90" height="98">
   <img src="./assets/skills/nextjs.svg" alt="Next.js skill logo" width="90" height="98">
   <img src="./assets/skills/fastapi.svg" alt="FastAPI skill logo" width="90" height="98">
   <img src="./assets/skills/tailwind.svg" alt="Tailwind CSS skill logo" width="90" height="98">
 </p>
+
+**Data & machine learning**
+
 <p>
   <img src="./assets/skills/numpy.svg" alt="NumPy skill logo" width="90" height="98">
   <img src="./assets/skills/pandas.svg" alt="Pandas skill logo" width="90" height="98">
   <img src="./assets/skills/scikit-learn.svg" alt="scikit-learn skill logo" width="90" height="98">
   <img src="./assets/skills/pytorch.svg" alt="PyTorch logo — learning" width="90" height="98">
+</p>
+
+**Tools & deployment**
+
+<p>
   <img src="./assets/skills/git.svg" alt="Git tooling logo" width="90" height="98">
+  <img src="./assets/skills/github.svg" alt="GitHub development tooling logo" width="90" height="98">
   <img src="./assets/skills/linux.svg" alt="Linux tooling logo" width="90" height="98">
+  <img src="./assets/skills/cloudflare.svg" alt="Cloudflare deployment tooling logo" width="90" height="98">
+  <img src="./assets/skills/render.svg" alt="Render deployment tooling logo" width="90" height="98">
 </p>
 
 Tools from projects and learning. PyTorch: learning.
 
-Learning ML. Building useful software. Open to internships and web projects.
+Open to internships and web projects.
 
 <details>
 <summary>Contribution trail</summary>

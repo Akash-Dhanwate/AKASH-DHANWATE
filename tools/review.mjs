@@ -31,6 +31,7 @@ try {
       brokenImages: [...document.images].filter(i => !i.complete || !i.naturalWidth).map(i => i.src),
       overflow: document.documentElement.scrollWidth > innerWidth,
       hero: document.images[0].currentSrc,
+      about: document.querySelector('img[src="./assets/about.svg"]').currentSrc,
       snake: [...document.images].find(i => i.src.includes('github-snake')).currentSrc,
       cards: [...document.querySelectorAll('img[src*="/projects/"]')].map(i => ({ source: i.currentSrc, href: i.closest('a')?.href })),
       skills: [...document.querySelectorAll('img[src*="/skills/"]')].length,
@@ -42,7 +43,10 @@ try {
     assert.equal(result.hero.includes('static'), item.reducedMotion === 'reduce', 'Static hero must load for reduced motion');
     assert.equal(result.snake.includes('snake-dark'), item.colorScheme === 'dark', 'Contribution theme must match');
     assert.equal(result.cards.length, 3, 'Three project cards');
-    assert.equal(result.skills, 12, 'Twelve official glass skill logos');
+    assert.equal(result.skills, 20, 'All twenty original technology choices are represented');
+    assert.equal(result.about.includes('about-mobile'), item.width <= 600, 'Responsive About card must load');
+    const aboutContent = await (await page.request.get(result.about)).text();
+    assert(aboutContent.includes('Akash Suresh Dhanwate') && aboutContent.includes('Sanjivani University'), 'About card retains the verified identity and university');
     for (const card of result.cards) {
       assert(card.href.startsWith('https://github.com/Akash-Dhanwate/'), 'Project image must be a working repository link');
       assert.equal(card.source.includes('-mobile'), item.width <= 600, 'Responsive project card');
@@ -66,7 +70,7 @@ try {
     await context.close();
   }
   fs.writeFileSync(path.join(output, 'browser-report.json'), JSON.stringify(report, null, 2) + '\n');
-  console.log('PASS: five viewport/theme/motion combinations; 12 glass logos, three linked project cards, responsive and static sources, measured hero/card motion, image decoding, and no horizontal overflow.');
+  console.log('PASS: five viewport/theme/motion combinations; responsive About card, 20 glass logos, three linked project cards, responsive and static sources, measured hero/card motion, image decoding, and no horizontal overflow.');
 } finally {
   await browser?.close();
   await new Promise(resolve => server.close(resolve));

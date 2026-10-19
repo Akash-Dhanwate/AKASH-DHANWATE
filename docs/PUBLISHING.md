@@ -29,7 +29,7 @@ To commit only this revision from the current `main` branch:
 ```bash
 cd /Users/akash/AKASH-DHANWATE
 git diff --check
-git add -- README.md assets/hero.svg assets/hero-static.svg assets/hero-mobile.svg assets/hero-mobile-static.svg assets/footer-static.svg assets/footer-mobile.svg assets/links assets/projects assets/skills tools/generate-assets.mjs tools/validate.mjs tools/review.mjs tools/check-github.mjs package.json package-lock.json .gitignore docs
+git add -- README.md assets/hero.svg assets/hero-static.svg assets/hero-mobile.svg assets/hero-mobile-static.svg assets/about.svg assets/about-mobile.svg assets/footer-static.svg assets/footer-mobile.svg assets/links assets/projects assets/skills tools/generate-assets.mjs tools/validate.mjs tools/review.mjs tools/check-github.mjs package.json package-lock.json .gitignore docs
 git diff --cached --stat
 git commit -m "design: simplify profile with glass logos and animated project cards"
 git push origin main

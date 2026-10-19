@@ -2,10 +2,10 @@
 
 Date: 19 October 2026.
 
-- Source validation: 48 image/link/source references; heading structure; meaningful alt text; all local paths; 43 SVG files checked with `xmllint`; gradient references; animation keyframes; reduced-motion rules; 150 KB per-SVG size budget.
-- Browser checks: desktop dark/light at 1440px; mobile dark and reduced motion at 390px; narrow light/reduced motion at 320px. All images decoded; no horizontal overflow; twelve logo tiles and three repository cards present.
+- Source validation: 58 image/link/source references; heading structure; meaningful alt text; all local paths; 53 SVG files checked with `xmllint`; gradient references; animation keyframes; reduced-motion rules; 150 KB per-SVG size budget.
+- Browser checks: desktop dark/light at 1440px; mobile dark and reduced motion at 390px; narrow light/reduced motion at 320px. All images decoded; no horizontal overflow; twenty logo tiles, a responsive About card, and three repository cards present.
 - Motion checks: screenshots differ for the hero and featured card with animation enabled; static alternatives produce identical frames under reduced motion. Dedicated mobile variants are selected.
-- GitHub renderer: HTTP 200 from the actual Markdown API; six pictures, sixteen source variants, twenty-two images, zero layout tables, one expandable contribution section, and all three linked project cards preserved.
+- GitHub renderer: HTTP 200 from the actual Markdown API; seven pictures, seventeen source variants, thirty-one images, zero layout tables, one expandable contribution section, and all three linked project cards preserved.
 - Existing facts: verified project descriptions and contact links retained; no new deployment, achievement, experience, or skill mastery claim.
 - Repository: nested repository left untouched; existing contribution workflow retained; no commit, push, or remote workflow run performed.
 

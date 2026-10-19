@@ -7,24 +7,25 @@
     "reducedMotion": "no-preference",
     "brokenImages": [],
     "overflow": false,
-    "hero": "http://127.0.0.1:49969/assets/hero.svg",
-    "snake": "http://127.0.0.1:49969/output/github-snake-dark.svg",
+    "hero": "http://127.0.0.1:51133/assets/hero.svg",
+    "about": "http://127.0.0.1:51133/assets/about.svg",
+    "snake": "http://127.0.0.1:51133/output/github-snake-dark.svg",
     "cards": [
       {
-        "source": "http://127.0.0.1:49969/assets/projects/metrics.svg",
+        "source": "http://127.0.0.1:51133/assets/projects/metrics.svg",
         "href": "https://github.com/Akash-Dhanwate/github-metrics"
       },
       {
-        "source": "http://127.0.0.1:49969/assets/projects/house-price.svg",
+        "source": "http://127.0.0.1:51133/assets/projects/house-price.svg",
         "href": "https://github.com/Akash-Dhanwate/HousePrice-Prediction-Model"
       },
       {
-        "source": "http://127.0.0.1:49969/assets/projects/smart-notes.svg",
+        "source": "http://127.0.0.1:51133/assets/projects/smart-notes.svg",
         "href": "https://github.com/Akash-Dhanwate/Smart-Notes-App"
       }
     ],
-    "skills": 12,
-    "imageCount": 22,
+    "skills": 20,
+    "imageCount": 31,
     "heroChanges": true,
     "cardChanges": true
   },
@@ -36,24 +37,25 @@
     "reducedMotion": "no-preference",
     "brokenImages": [],
     "overflow": false,
-    "hero": "http://127.0.0.1:49969/assets/hero.svg",
-    "snake": "http://127.0.0.1:49969/output/github-snake.svg",
+    "hero": "http://127.0.0.1:51133/assets/hero.svg",
+    "about": "http://127.0.0.1:51133/assets/about.svg",
+    "snake": "http://127.0.0.1:51133/output/github-snake.svg",
     "cards": [
       {
-        "source": "http://127.0.0.1:49969/assets/projects/metrics.svg",
+        "source": "http://127.0.0.1:51133/assets/projects/metrics.svg",
         "href": "https://github.com/Akash-Dhanwate/github-metrics"
       },
       {
-        "source": "http://127.0.0.1:49969/assets/projects/house-price.svg",
+        "source": "http://127.0.0.1:51133/assets/projects/house-price.svg",
         "href": "https://github.com/Akash-Dhanwate/HousePrice-Prediction-Model"
       },
       {
-        "source": "http://127.0.0.1:49969/assets/projects/smart-notes.svg",
+        "source": "http://127.0.0.1:51133/assets/projects/smart-notes.svg",
         "href": "https://github.com/Akash-Dhanwate/Smart-Notes-App"
       }
     ],
-    "skills": 12,
-    "imageCount": 22,
+    "skills": 20,
+    "imageCount": 31,
     "heroChanges": true,
     "cardChanges": true
   },
@@ -65,24 +67,25 @@
     "reducedMotion": "no-preference",
     "brokenImages": [],
     "overflow": false,
-    "hero": "http://127.0.0.1:49969/assets/hero-mobile.svg",
-    "snake": "http://127.0.0.1:49969/output/github-snake-dark.svg",
+    "hero": "http://127.0.0.1:51133/assets/hero-mobile.svg",
+    "about": "http://127.0.0.1:51133/assets/about-mobile.svg",
+    "snake": "http://127.0.0.1:51133/output/github-snake-dark.svg",
     "cards": [
       {
-        "source": "http://127.0.0.1:49969/assets/projects/metrics-mobile.svg",
+        "source": "http://127.0.0.1:51133/assets/projects/metrics-mobile.svg",
         "href": "https://github.com/Akash-Dhanwate/github-metrics"
       },
       {
-        "source": "http://127.0.0.1:49969/assets/projects/house-price-mobile.svg",
+        "source": "http://127.0.0.1:51133/assets/projects/house-price-mobile.svg",
         "href": "https://github.com/Akash-Dhanwate/HousePrice-Prediction-Model"
       },
       {
-        "source": "http://127.0.0.1:49969/assets/projects/smart-notes-mobile.svg",
+        "source": "http://127.0.0.1:51133/assets/projects/smart-notes-mobile.svg",
         "href": "https://github.com/Akash-Dhanwate/Smart-Notes-App"
       }
     ],
-    "skills": 12,
-    "imageCount": 22,
+    "skills": 20,
+    "imageCount": 31,
     "heroChanges": true,
     "cardChanges": true
   },
@@ -94,24 +97,25 @@
     "reducedMotion": "reduce",
     "brokenImages": [],
     "overflow": false,
-    "hero": "http://127.0.0.1:49969/assets/hero-mobile-static.svg",
-    "snake": "http://127.0.0.1:49969/output/github-snake-dark-static.svg",
+    "hero": "http://127.0.0.1:51133/assets/hero-mobile-static.svg",
+    "about": "http://127.0.0.1:51133/assets/about-mobile.svg",
+    "snake": "http://127.0.0.1:51133/output/github-snake-dark-static.svg",
     "cards": [
       {
-        "source": "http://127.0.0.1:49969/assets/projects/metrics-mobile-static.svg",
+        "source": "http://127.0.0.1:51133/assets/projects/metrics-mobile-static.svg",
         "href": "https://github.com/Akash-Dhanwate/github-metrics"
       },
       {
-        "source": "http://127.0.0.1:49969/assets/projects/house-price-mobile-static.svg",
+        "source": "http://127.0.0.1:51133/assets/projects/house-price-mobile-static.svg",
         "href": "https://github.com/Akash-Dhanwate/HousePrice-Prediction-Model"
       },
       {
-        "source": "http://127.0.0.1:49969/assets/projects/smart-notes-mobile-static.svg",
+        "source": "http://127.0.0.1:51133/assets/projects/smart-notes-mobile-static.svg",
         "href": "https://github.com/Akash-Dhanwate/Smart-Notes-App"
       }
     ],
-    "skills": 12,
-    "imageCount": 22,
+    "skills": 20,
+    "imageCount": 31,
     "heroChanges": false,
     "cardChanges": false
   },
@@ -123,24 +127,25 @@
     "reducedMotion": "reduce",
     "brokenImages": [],
     "overflow": false,
-    "hero": "http://127.0.0.1:49969/assets/hero-mobile-static.svg",
-    "snake": "http://127.0.0.1:49969/output/github-snake-static.svg",
+    "hero": "http://127.0.0.1:51133/assets/hero-mobile-static.svg",
+    "about": "http://127.0.0.1:51133/assets/about-mobile.svg",
+    "snake": "http://127.0.0.1:51133/output/github-snake-static.svg",
     "cards": [
       {
-        "source": "http://127.0.0.1:49969/assets/projects/metrics-mobile-static.svg",
+        "source": "http://127.0.0.1:51133/assets/projects/metrics-mobile-static.svg",
         "href": "https://github.com/Akash-Dhanwate/github-metrics"
       },
       {
-        "source": "http://127.0.0.1:49969/assets/projects/house-price-mobile-static.svg",
+        "source": "http://127.0.0.1:51133/assets/projects/house-price-mobile-static.svg",
         "href": "https://github.com/Akash-Dhanwate/HousePrice-Prediction-Model"
       },
       {
-        "source": "http://127.0.0.1:49969/assets/projects/smart-notes-mobile-static.svg",
+        "source": "http://127.0.0.1:51133/assets/projects/smart-notes-mobile-static.svg",
         "href": "https://github.com/Akash-Dhanwate/Smart-Notes-App"
       }
     ],
-    "skills": 12,
-    "imageCount": 22,
+    "skills": 20,
+    "imageCount": 31,
     "heroChanges": false,
     "cardChanges": false
   }

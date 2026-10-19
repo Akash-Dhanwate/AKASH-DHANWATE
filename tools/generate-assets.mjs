@@ -45,13 +45,65 @@ function hero(mobile) {
 save('hero', hero(false));
 save('hero-mobile', hero(true));
 
+function aboutCard(mobile) {
+  const w = mobile ? 600 : 1100, h = mobile ? 530 : 440;
+  let body = '<rect width="' + w + '" height="' + h + '" rx="23" fill="' + C.bg + '"/><rect x="1" y="1" width="' + (w - 2) + '" height="' + (h - 2) + '" rx="22" fill="#101524"/><rect x="1" y="1" width="' + (w - 2) + '" height="' + (h - 2) + '" rx="22" fill="url(#glass)" stroke="url(#edge)"/>';
+  if (mobile) {
+    body += letters('Akash Suresh Dhanwate', 30, 67, 35);
+    body += letters('B.Tech / AI & Data Science', 30, 111, 23, C.muted);
+    body += letters('Sanjivani University', 30, 148, 23, C.muted);
+    body += '<path d="M30 177H570" stroke="' + C.line + '"/>';
+    const rows = [
+      ['based', 'Maharashtra, India'],
+      ['building', 'GitHub Metrics Dashboard'],
+      ['focus', 'ML / Full-stack / DSA'],
+      ['learning', 'Neural nets / Statistics'],
+      ['aim', 'Software / ML engineering'],
+    ];
+    for (let i = 0; i < rows.length; i++) {
+      const y = 218 + i * 48;
+      body += mono(rows[i][0], 30, y, 17, C.cyan) + letters(rows[i][1], 155, y, 22, C.white);
+    }
+    body += letters('Google / Microsoft — long-term goal', 155, 448, 18, C.muted);
+    body += mono('off-duty / Iron Man fan', 30, 499, 17, C.muted);
+  } else {
+    body += letters('Akash Suresh Dhanwate', 40, 78, 47);
+    body += letters('B.Tech / Artificial Intelligence & Data Science', 40, 125, 25, C.muted);
+    body += letters('Sanjivani University', 40, 161, 23, C.muted);
+    body += '<path d="M40 190H1060M733 216V392" stroke="' + C.line + '"/>';
+    const rows = [
+      ['based', 'Maharashtra, India'],
+      ['building', 'GitHub Metrics Dashboard'],
+      ['focus', 'Machine learning / Full-stack / DSA'],
+      ['learning', 'Neural networks / Statistics'],
+    ];
+    for (let i = 0; i < rows.length; i++) {
+      const y = 237 + i * 49;
+      body += mono(rows[i][0], 40, y, 17, C.cyan) + letters(rows[i][1], 177, y, 23, C.white);
+    }
+    body += mono('LONG-TERM AIM', 770, 237, 15, C.cyan);
+    body += letters('Software / ML engineering', 770, 275, 21);
+    body += letters('Google or Microsoft', 770, 310, 21, C.muted);
+    body += mono('OFF-DUTY', 770, 360, 14, C.muted);
+    body += letters('Iron Man fan.', 770, 393, 22, C.muted);
+  }
+  return svg(w, h, 'About Akash Suresh Dhanwate', 'B.Tech student in Artificial Intelligence and Data Science at Sanjivani University, Maharashtra, India. Building GitHub Metrics. Focus: machine learning, full-stack development and DSA. Learning neural networks and statistics. Long-term aim: software or ML engineering at Google or Microsoft. Iron Man fan. Study year is omitted because it is unverified.', body);
+}
+save('about', aboutCard(false), false);
+save('about-mobile', aboutCard(true), false);
+
 const skills = [
-  ['python', 'Python', 'siPython'], ['typescript', 'TypeScript', 'siTypescript'],
+  ['python', 'Python', 'siPython'], ['java', 'Java', 'siOpenjdk'],
+  ['cplusplus', 'C++', 'siCplusplus'], ['javascript', 'JavaScript', 'siJavascript'],
+  ['typescript', 'TypeScript', 'siTypescript'],
+  ['html5', 'HTML5', 'siHtml5'], ['css3', 'CSS3', 'siCss'],
   ['react', 'React', 'siReact'], ['nextjs', 'Next.js', 'siNextdotjs'],
   ['fastapi', 'FastAPI', 'siFastapi'], ['tailwind', 'Tailwind', 'siTailwindcss'],
   ['numpy', 'NumPy', 'siNumpy'], ['pandas', 'Pandas', 'siPandas'],
   ['scikit-learn', 'scikit-learn', 'siScikitlearn'], ['pytorch', 'PyTorch', 'siPytorch'],
-  ['git', 'Git', 'siGit'], ['linux', 'Linux', 'siLinux'],
+  ['git', 'Git', 'siGit'], ['github', 'GitHub', 'siGithub'],
+  ['linux', 'Linux', 'siLinux'], ['cloudflare', 'Cloudflare', 'siCloudflare'],
+  ['render', 'Render', 'siRender'],
 ];
 for (const [name, label, key] of skills) {
   const icon = icons[key];
@@ -59,7 +111,8 @@ for (const [name, label, key] of skills) {
   const labelSize = label.length > 10 ? 11.5 : 13;
   const labelWidth = font.getAdvanceWidth(label, labelSize);
   const body = '<rect x="10" y="13" width="96" height="98" rx="20" fill="#000" opacity=".25" filter="url(#soft)"/><rect x="6" y="5" width="100" height="104" rx="20" fill="#111725"/><rect x="6" y="5" width="100" height="104" rx="20" fill="url(#glass)" stroke="url(#edge)"/><path d="M22 12H88M13 22V41" stroke="#E4E6FF" stroke-opacity=".23" fill="none"/><path d="M24 109H88L95 115H31Z" fill="#41476B" opacity=".35"/><path d="' + icon.path + '" transform="translate(34 23) scale(1.85)" fill="#020510" opacity=".65"/><path d="' + icon.path + '" transform="translate(33 21) scale(1.85)" fill="url(#ink)"/>' + letters(label, (112 - labelWidth) / 2, 94, labelSize, C.white);
-  save('skills/' + name, svg(112, 122, label + (name === 'pytorch' ? ' — learning' : ' — project and learning tool'), 'Official ' + icon.title + ' logo set into a static frosted glass tile with a shaded edge. This is an exposure inventory, not an expertise rating.', body), false);
+  const markNote = name === 'java' ? 'The OpenJDK mark represents Java tooling.' : name === 'css3' ? 'The CSS mark represents CSS3.' : 'Official ' + icon.title + ' logo.';
+  save('skills/' + name, svg(112, 122, label + (name === 'pytorch' ? ' — learning' : ' — project and learning tool'), markNote + ' A static frosted glass tile with a shaded edge. This is an exposure inventory, not an expertise rating.', body), false);
 }
 
 const projects = [
@@ -116,4 +169,4 @@ const footer = '<rect width="1200" height="105" fill="' + C.bg + '"/><path d="' 
 save('footer-static', svg(1200, 105, 'Keep asking. Keep building.', 'The AD signature closes the profile without animation.', footer), false);
 const mobileFooter = '<rect width="600" height="115" fill="' + C.bg + '"/><path d="' + ad + '" transform="translate(48 55) scale(.1)" fill="none" stroke="url(#edge)" stroke-width="16"/>' + letters('Keep asking. Keep building.', 87, 65, 28, C.muted);
 save('footer-mobile', svg(600, 115, 'Keep asking. Keep building.', 'A compact static AD signature.', mobileFooter), false);
-console.log('Generated glass AD identity, 12 official skill logo tiles, 3 responsive animated project cards, static alternatives, contacts, and a quiet footer.');
+console.log('Generated glass identity, responsive About card, 20 technology logo tiles, 3 responsive animated project cards, static alternatives, contacts, and a quiet footer.');
