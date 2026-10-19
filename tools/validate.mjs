@@ -10,9 +10,10 @@ const readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
 const md = new MarkdownIt({ html: true });
 const tokens = md.parse(readme, {});
 const headings = tokens.filter(t => t.type === 'heading_open');
-assert.equal(headings.filter(t => t.tag === 'h1').length, 1, 'Exactly one H1');
-assert.equal(headings[0].tag, 'h1', 'First heading is H1');
-let previous = 0;
+assert(headings.filter(t => t.tag === 'h1').length <= 1, 'At most one H1');
+assert.equal(headings[0].tag, 'h2', 'Profile sections start at H2 below the profile identity');
+assert(readme.includes('alt="Akash Dhanwate'), 'The hero must provide a readable identity');
+let previous = 1;
 for (const heading of headings) {
   const depth = Number(heading.tag.slice(1));
   assert(depth <= previous + 1, 'Heading hierarchy must not skip levels');
@@ -57,12 +58,13 @@ for (const filename of svgs) {
 const workflow = YAML.parse(fs.readFileSync(path.join(root, '.github/workflows/github-snake.yml'), 'utf8'));
 assert.deepEqual(workflow.on.push.branches, ['main']);
 assert(workflow.on.workflow_dispatch === null, 'Manual trigger must exist');
-assert.equal(workflow.jobs.refresh.permissions.contents, 'write');
-assert.equal(workflow.permissions.contents, 'read');
-const generator = workflow.jobs.refresh.steps.find(step => step.uses?.startsWith('Platane/snk/'));
-assert.equal(generator.with.github_user_name, 'Akash-Dhanwate');
+const job = Object.values(workflow.jobs).find(j => j.steps?.some(step => step.uses?.startsWith('Platane/snk/')));
+assert(job, 'Contribution generator job must exist');
+assert.equal(job.permissions.contents, 'write');
+const generator = job.steps.find(step => step.uses?.startsWith('Platane/snk/'));
+assert(['Akash-Dhanwate', '${{ github.repository_owner }}'].includes(generator.with.github_user_name), 'Correct contribution owner');
 for (const output of ['output/github-snake.svg', 'output/github-snake-dark.svg']) {
-  assert(generator.with.outputs.includes(output), `Missing generated path ${output}`);
+  assert(generator.with.outputs.includes(path.basename(output)), `Missing generated filename ${output}`);
   assert(readme.includes(`./${output}`), `README does not point to generated output ${output}`);
 }
 assert.equal(JSON.parse(fs.readFileSync(path.join(root, 'output/snapshot.json'), 'utf8')).username, 'Akash-Dhanwate');

@@ -1,0 +1,4 @@
+node_modules/
+preview-artifacts/
+.DS_Store
+*.zip

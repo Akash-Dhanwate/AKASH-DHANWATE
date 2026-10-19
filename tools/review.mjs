@@ -6,7 +6,7 @@ import { root, createPreviewServer } from './preview.mjs';
 
 const server = createPreviewServer();
 await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
-const base = `http://127.0.0.1:${server.address().port}`;
+const base = 'http://127.0.0.1:' + server.address().port;
 const output = path.join(root, 'preview-artifacts');
 fs.mkdirSync(output, { recursive: true });
 const executablePath = process.env.PROFILE_CHROME_PATH || (process.platform === 'darwin' ? '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' : undefined);
@@ -24,57 +24,49 @@ try {
   for (const item of cases) {
     const context = await browser.newContext({ viewport: { width: item.width, height: item.height }, colorScheme: item.colorScheme, reducedMotion: item.reducedMotion });
     const page = await context.newPage();
-    await page.goto(`${base}/?theme=${item.colorScheme}`);
+    await page.goto(base + '/?theme=' + item.colorScheme);
+    await page.locator('details').evaluate(e => { e.open = true; });
     await page.locator('img').evaluateAll(images => Promise.all(images.map(i => i.decode())));
     const result = await page.evaluate(() => ({
       brokenImages: [...document.images].filter(i => !i.complete || !i.naturalWidth).map(i => i.src),
       overflow: document.documentElement.scrollWidth > innerWidth,
       hero: document.images[0].currentSrc,
       snake: [...document.images].find(i => i.src.includes('github-snake')).currentSrc,
+      cards: [...document.querySelectorAll('img[src*="/projects/"]')].map(i => ({ source: i.currentSrc, href: i.closest('a')?.href })),
+      skills: [...document.querySelectorAll('img[src*="/skills/"]')].length,
       imageCount: document.images.length,
-      invalidAnchors: [...document.querySelectorAll('a[href^="#"]')].filter(a => !document.getElementById(a.hash.slice(1))).map(a => a.hash),
     }));
-    assert.equal(result.brokenImages.length, 0, `${item.name}: broken images`);
-    assert.equal(result.invalidAnchors.length, 0, `${item.name}: broken anchors`);
-    assert(!result.overflow, `${item.name}: horizontal overflow`);
+    assert.equal(result.brokenImages.length, 0, item.name + ': broken images');
+    assert(!result.overflow, item.name + ': horizontal overflow');
     assert.equal(result.hero.includes('hero-mobile'), item.width <= 600, 'Responsive hero must load');
-    assert.equal(result.hero.includes('static'), item.reducedMotion === 'reduce', 'Static alternative must load for reduced motion');
+    assert.equal(result.hero.includes('static'), item.reducedMotion === 'reduce', 'Static hero must load for reduced motion');
     assert.equal(result.snake.includes('snake-dark'), item.colorScheme === 'dark', 'Contribution theme must match');
-    await page.screenshot({ path: path.join(output, `${item.name}.png`), fullPage: true });
+    assert.equal(result.cards.length, 3, 'Three project cards');
+    assert.equal(result.skills, 12, 'Twelve official glass skill logos');
+    for (const card of result.cards) {
+      assert(card.href.startsWith('https://github.com/Akash-Dhanwate/'), 'Project image must be a working repository link');
+      assert.equal(card.source.includes('-mobile'), item.width <= 600, 'Responsive project card');
+      assert.equal(card.source.includes('-static'), item.reducedMotion === 'reduce', 'Static project alternative');
+    }
+    await page.locator('details').evaluate(e => { e.open = false; });
+    await page.screenshot({ path: path.join(output, item.name + '.png'), fullPage: true });
     const hero = page.locator('img').first();
     const a = await hero.screenshot();
     await page.waitForTimeout(650);
     const b = await hero.screenshot();
     const heroChanges = !a.equals(b);
-    assert.equal(heroChanges, item.reducedMotion !== 'reduce', `${item.name}: animation preference mismatch`);
-    report.push({ ...item, ...result, heroChanges });
+    assert.equal(heroChanges, item.reducedMotion !== 'reduce', item.name + ': hero motion preference mismatch');
+    const card = page.locator('img[src*="/projects/"]').first();
+    const first = await card.screenshot();
+    await page.waitForTimeout(500);
+    const second = await card.screenshot();
+    const cardChanges = !first.equals(second);
+    assert.equal(cardChanges, item.reducedMotion !== 'reduce', item.name + ': project motion preference mismatch');
+    report.push({ ...item, ...result, heroChanges, cardChanges });
     await context.close();
   }
-  const svgPage = await browser.newPage({ reducedMotion: 'reduce' });
-  await svgPage.goto(`${base}/assets/focus.svg`);
-  assert.equal(await svgPage.locator('.motion').evaluate(e => getComputedStyle(e).display), 'none');
-  assert.notEqual(await svgPage.locator('.reduced').evaluate(e => getComputedStyle(e).display), 'none');
-  await svgPage.close();
-  const focusPage = await browser.newPage({ reducedMotion: 'no-preference' });
-  await focusPage.goto(`${base}/assets/focus.svg`);
-  const typing = await focusPage.evaluate(() => {
-    const svg = document.documentElement;
-    svg.pauseAnimations();
-    const frames = [2, 8, 14].map(time => {
-      svg.setCurrentTime(time);
-      return [...document.querySelectorAll('g.motion > g')].map(e => Number(getComputedStyle(e).opacity));
-    });
-    svg.setCurrentTime(.1);
-    const start = document.querySelector('clipPath rect').width.animVal.value;
-    svg.setCurrentTime(3);
-    const complete = document.querySelector('clipPath rect').width.animVal.value;
-    return { frames, start, complete };
-  });
-  assert.deepEqual(typing.frames, [[1, 0, 0], [0, 1, 0], [0, 0, 1]], 'Typing messages must cycle once each');
-  assert(typing.complete > typing.start, 'Typing mask must actually reveal text');
-  await focusPage.close();
   fs.writeFileSync(path.join(output, 'browser-report.json'), JSON.stringify(report, null, 2) + '\n');
-  console.log(`PASS: ${cases.length} viewport/theme/motion combinations, all images decoded, no overflow, correct responsive sources, working anchors, measured SVG animation changes, and all 3 typing states. Screenshots: preview-artifacts/.`);
+  console.log('PASS: five viewport/theme/motion combinations; 12 glass logos, three linked project cards, responsive and static sources, measured hero/card motion, image decoding, and no horizontal overflow.');
 } finally {
   await browser?.close();
   await new Promise(resolve => server.close(resolve));

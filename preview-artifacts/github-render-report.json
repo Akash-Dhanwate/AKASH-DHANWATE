@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-10-18T15:38:09.557Z",
+  "checked_at": "2026-10-19T04:46:48.013Z",
   "status": 200,
-  "source_sha256": "7d3b70d2260a4121d783df07ce56bc4519c04d77d69cf1efe07fe56430eecd16",
-  "pictures": 4,
-  "sources": 11,
-  "tables": 2,
-  "images": 9,
+  "source_sha256": "bfc058a6ac60744d25ee877cfc3dfb37bb7d46ecdaa29abb8c06da708c0e31e7",
+  "pictures": 6,
+  "sources": 16,
+  "tables": 0,
+  "images": 22,
   "note": "Actual GitHub Markdown API rendering. This read-only transformation does not publish a branch or profile."
 }
