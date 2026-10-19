@@ -1,0 +1,72 @@
+[
+  {
+    "name": "desktop-dark",
+    "width": 1440,
+    "height": 1080,
+    "colorScheme": "dark",
+    "reducedMotion": "no-preference",
+    "brokenImages": [],
+    "overflow": false,
+    "hero": "http://127.0.0.1:62962/assets/hero.svg",
+    "snake": "http://127.0.0.1:62962/output/github-snake-dark.svg",
+    "imageCount": 9,
+    "invalidAnchors": [],
+    "heroChanges": true
+  },
+  {
+    "name": "desktop-light",
+    "width": 1440,
+    "height": 1080,
+    "colorScheme": "light",
+    "reducedMotion": "no-preference",
+    "brokenImages": [],
+    "overflow": false,
+    "hero": "http://127.0.0.1:62962/assets/hero.svg",
+    "snake": "http://127.0.0.1:62962/output/github-snake.svg",
+    "imageCount": 9,
+    "invalidAnchors": [],
+    "heroChanges": true
+  },
+  {
+    "name": "mobile-dark",
+    "width": 390,
+    "height": 844,
+    "colorScheme": "dark",
+    "reducedMotion": "no-preference",
+    "brokenImages": [],
+    "overflow": false,
+    "hero": "http://127.0.0.1:62962/assets/hero-mobile.svg",
+    "snake": "http://127.0.0.1:62962/output/github-snake-dark.svg",
+    "imageCount": 9,
+    "invalidAnchors": [],
+    "heroChanges": true
+  },
+  {
+    "name": "mobile-reduced",
+    "width": 390,
+    "height": 844,
+    "colorScheme": "dark",
+    "reducedMotion": "reduce",
+    "brokenImages": [],
+    "overflow": false,
+    "hero": "http://127.0.0.1:62962/assets/hero-mobile-static.svg",
+    "snake": "http://127.0.0.1:62962/output/github-snake-dark-static.svg",
+    "imageCount": 9,
+    "invalidAnchors": [],
+    "heroChanges": false
+  },
+  {
+    "name": "narrow-light",
+    "width": 320,
+    "height": 740,
+    "colorScheme": "light",
+    "reducedMotion": "reduce",
+    "brokenImages": [],
+    "overflow": false,
+    "hero": "http://127.0.0.1:62962/assets/hero-mobile-static.svg",
+    "snake": "http://127.0.0.1:62962/output/github-snake-static.svg",
+    "imageCount": 9,
+    "invalidAnchors": [],
+    "heroChanges": false
+  }
+]

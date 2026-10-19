@@ -1,0 +1,162 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="title desc">
+  <title id="title">Animated cloudy space banner for Akash Dhanwate</title>
+  <desc id="desc">A dark sci-fi profile banner with drifting clouds, stars, orbit lines, and an animated Akash Dhanwate name.</desc>
+
+  <defs>
+    <linearGradient id="space" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#050B18"/>
+      <stop offset="0.42" stop-color="#071B2E"/>
+      <stop offset="0.72" stop-color="#0B2A3A"/>
+      <stop offset="1" stop-color="#07111F"/>
+    </linearGradient>
+
+    <radialGradient id="nebulaA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(240 120) rotate(26) scale(420 180)">
+      <stop stop-color="#7DE7FF" stop-opacity="0.34"/>
+      <stop offset="0.45" stop-color="#2D7D9D" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#07111F" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="nebulaB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(900 300) rotate(-18) scale(420 210)">
+      <stop stop-color="#9EF01A" stop-opacity="0.18"/>
+      <stop offset="0.5" stop-color="#00B4D8" stop-opacity="0.11"/>
+      <stop offset="1" stop-color="#07111F" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="cloud" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#EAF2FF" stop-opacity="0"/>
+      <stop offset="0.35" stop-color="#B8E8FF" stop-opacity="0.28"/>
+      <stop offset="0.68" stop-color="#7DE7FF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#EAF2FF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="nameGradient" x1="235" y1="0" x2="965" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EAF2FF"/>
+      <stop offset="0.36" stop-color="#7DE7FF"/>
+      <stop offset="0.68" stop-color="#9EF01A"/>
+      <stop offset="1" stop-color="#EAF2FF"/>
+    </linearGradient>
+
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#7DE7FF" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+
+    <filter id="softBlur" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+
+    <filter id="nameGlow" x="-20%" y="-80%" width="140%" height="220%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.49 0 0 0 0 0.91 0 0 0 0 1 0 0 0 0.75 0" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <path id="orbitPath" d="M -355 0 A 355 66 0 1 1 355 0 A 355 66 0 1 1 -355 0"/>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#space)"/>
+  <rect width="1200" height="420" fill="url(#grid)" opacity="0.75">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 48 0; 0 0" dur="18s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="1200" height="420" fill="url(#nebulaA)"/>
+  <rect width="1200" height="420" fill="url(#nebulaB)"/>
+
+  <g opacity="0.9">
+    <circle cx="80" cy="58" r="1.5" fill="#EAF2FF">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="175" cy="95" r="1.2" fill="#7DE7FF">
+      <animate attributeName="opacity" values="0.15;0.9;0.15" dur="4.4s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="311" cy="46" r="1.3" fill="#EAF2FF">
+      <animate attributeName="opacity" values="0.2;0.85;0.2" dur="5.2s" begin="0.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="438" cy="78" r="1.1" fill="#9EF01A">
+      <animate attributeName="opacity" values="0.2;0.8;0.2" dur="4.7s" begin="1.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1012" cy="65" r="1.6" fill="#EAF2FF">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1090" cy="136" r="1.1" fill="#7DE7FF">
+      <animate attributeName="opacity" values="0.18;0.9;0.18" dur="4.1s" begin="0.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="978" cy="252" r="1.2" fill="#EAF2FF">
+      <animate attributeName="opacity" values="0.2;0.85;0.2" dur="5.5s" begin="1.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="143" cy="292" r="1.3" fill="#7DE7FF">
+      <animate attributeName="opacity" values="0.16;0.9;0.16" dur="4.9s" begin="0.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="678" cy="54" r="1.5" fill="#EAF2FF">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="4.2s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="790" cy="330" r="1.2" fill="#9EF01A">
+      <animate attributeName="opacity" values="0.18;0.85;0.18" dur="5.1s" begin="0.7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g opacity="0.58">
+    <path d="M-70 284C42 236 130 282 238 248C348 213 442 246 542 223C650 198 762 219 864 204C999 184 1090 225 1275 176V420H-70V284Z" fill="url(#cloud)" filter="url(#softBlur)">
+      <animateTransform attributeName="transform" type="translate" values="-85 0; 80 -5; -85 0" dur="24s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g opacity="0.48">
+    <path d="M-120 120C22 81 150 109 258 91C387 70 458 122 588 91C718 60 815 91 922 77C1058 59 1146 93 1324 52V240H-120V120Z" fill="url(#cloud)" filter="url(#softBlur)">
+      <animateTransform attributeName="transform" type="translate" values="80 0; -110 8; 80 0" dur="30s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g transform="translate(600 210)" opacity="0.58">
+    <ellipse rx="390" ry="88" stroke="#7DE7FF" stroke-opacity="0.35" stroke-width="1.4"/>
+    <ellipse rx="322" ry="56" stroke="#9EF01A" stroke-opacity="0.16" stroke-width="1"/>
+    <g>
+      <circle r="5.5" fill="#9EF01A"/>
+      <circle r="13" fill="#9EF01A" opacity="0.14"/>
+      <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#orbitPath" xlink:href="#orbitPath"/>
+      </animateMotion>
+    </g>
+  </g>
+
+  <g>
+    <line x1="-220" y1="44" x2="-50" y2="10" stroke="#EAF2FF" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+    <line x1="-206" y1="47" x2="-95" y2="25" stroke="#7DE7FF" stroke-width="1" stroke-linecap="round" opacity="0.72"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 1520 310" dur="6.5s" repeatCount="indefinite"/>
+  </g>
+
+  <g filter="url(#nameGlow)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 14 -8; -12 7; 0 0" dur="7s" repeatCount="indefinite" additive="sum"/>
+      <text x="292" y="194" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="0" textLength="620" lengthAdjust="spacingAndGlyphs" fill="url(#nameGradient)">AKASH DHANWATE</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="316" y="222" width="568" height="2" rx="1" fill="#7DE7FF" opacity="0.25"/>
+    <rect x="316" y="222" width="126" height="2" rx="1" fill="#9EF01A" opacity="0.92">
+      <animate attributeName="x" values="316;758;316" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <text x="346" y="260" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="0" textLength="508" lengthAdjust="spacingAndGlyphs" fill="#EAF2FF" opacity="0.94">AI &amp; Data Science | Python | JavaScript | Automation</text>
+
+  <text x="390" y="302" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="0" textLength="420" lengthAdjust="spacingAndGlyphs" fill="#A9B8C7">building practical projects from the clouds to the codebase</text>
+
+  <g opacity="0.7">
+    <rect x="62" y="342" width="210" height="34" rx="17" fill="#07111F" stroke="#7DE7FF" stroke-opacity="0.35"/>
+    <circle cx="86" cy="359" r="5" fill="#9EF01A">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="106" y="364" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="0" fill="#EAF2FF">MISSION: BUILD IN PUBLIC</text>
+  </g>
+
+  <g opacity="0.7">
+    <rect x="905" y="342" width="235" height="34" rx="17" fill="#07111F" stroke="#9EF01A" stroke-opacity="0.28"/>
+    <circle cx="930" cy="359" r="5" fill="#7DE7FF">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="950" y="364" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="0" fill="#EAF2FF">STATUS: LEARNING + SHIPPING</text>
+  </g>
+</svg>

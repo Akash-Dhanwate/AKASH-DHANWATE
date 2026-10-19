@@ -1,153 +1,117 @@
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=AKASH%20DHANWATE&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI/ML%20%7C%20Data%20Science%20%7C%20Full-Stack&descAlignY=58&descSize=18" />
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&width=600&lines=B.Tech+IT+%7C+AI%2FML+%26+Data+Science;Building+the+GitHub+Metrics+Dashboard;Full-Stack+Dev+%7C+FastAPI+%2B+Next.js;DSA+in+C%2B%2B+%26+Python;" />
-</a>
-
-</div>
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/4kashdhanwate)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/akash_dhanwate7)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/akash-dhanwate)
-
-</div>
-
----
-
-### ⚡ About Me
-
-```yaml
-name: Akash Suresh Dhanwate
-role: B.Tech Student — Artificial Intelligence and Data Science (AI/ML & Data Science)
-university: Sanjivani University, Kopargon, Maharashtra
-year: 2rd Year
-focus: [Machine Learning, Full-Stack Development, DSA, System Design]
-mission: "Building a portfolio strong enough to walk into top product companies"
-fun_fact: "Iron Man fan — I like my code like Tony likes his suits: over-engineered, but it works."
-```
-
-- 🔭 Currently building **GitHub Metrics Analytics Dashboard** — a full-stack analytics platform for GitHub profiles
-- 🧠 Deep-diving into **Machine Learning** (completed Andrew Ng's ML Specialization, currently on neural nets & decision trees)
-- 🛠️ Practicing **DSA** daily across C++ and Python — Two Pointers, Sliding Window, Binary Search, HashMaps, DFS
-- 💼 Freelance web developer — landing pages, SEO fixes, and performance tuning for small businesses
-- 🎯 Goal: land a strong product-company placement through deep specialization, not scattered skills
-
----
-
-### 🧰 Tech Arsenal
-
-<!-- <div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
-
-</div> -->
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-0b0711?style=for-the-badge&logo=python&logoColor=ff4fd8)
-![Java](https://img.shields.io/badge/Java-0b0711?style=for-the-badge&logo=openjdk&logoColor=f0abfc)
-![C++](https://img.shields.io/badge/C%2B%2B-0b0711?style=for-the-badge&logo=cplusplus&logoColor=c084fc)
-![JavaScript](https://img.shields.io/badge/JavaScript-0b0711?style=for-the-badge&logo=javascript&logoColor=f472b6)
-![HTML5](https://img.shields.io/badge/HTML5-0b0711?style=for-the-badge&logo=html5&logoColor=ff4fd8)
-![CSS3](https://img.shields.io/badge/CSS3-0b0711?style=for-the-badge&logo=css3&logoColor=c084fc)
-![React](https://img.shields.io/badge/React-0b0711?style=for-the-badge&logo=react&logoColor=f0abfc)
-![Next.js](https://img.shields.io/badge/Next.js-0b0711?style=for-the-badge&logo=nextdotjs&logoColor=ffffff)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-0b0711?style=for-the-badge&logo=tailwindcss&logoColor=ff4fd8)
-![FastAPI](https://img.shields.io/badge/FastAPI-0b0711?style=for-the-badge&logo=fastapi&logoColor=c084fc)
-![NumPy](https://img.shields.io/badge/NumPy-0b0711?style=for-the-badge&logo=numpy&logoColor=f0abfc)
-![Pandas](https://img.shields.io/badge/Pandas-0b0711?style=for-the-badge&logo=pandas&logoColor=ff4fd8)
-![Scikit--learn](https://img.shields.io/badge/Scikit--learn-0b0711?style=for-the-badge&logo=scikitlearn&logoColor=f472b6)
-![PyTorch](https://img.shields.io/badge/PyTorch-0b0711?style=for-the-badge&logo=pytorch&logoColor=ff4fd8)
-![Git](https://img.shields.io/badge/Git-0b0711?style=for-the-badge&logo=git&logoColor=f0abfc)
-![Linux](https://img.shields.io/badge/Linux-0b0711?style=for-the-badge&logo=linux&logoColor=ffffff)
-
-</div>
-
----
-
-### 🚀 Featured Build
-
-<div align="center">
-
-<a href="https://github-metrics.learnaids2025.workers.dev" target="_blank">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1500&color=A78BFA&center=true&vCenter=true&width=550&lines=GitHub+Metrics+Analytics+Dashboard;FastAPI+%2B+Next.js+%2B+GraphQL;Contribution+Graphs+%7C+Achievements+%7C+Compare" />
-</a>
-
-</div>
-
-A full-stack analytics platform that pulls live GitHub data via the GraphQL API — contribution heatmaps, achievements, user comparisons, and exportable stats. Backend on FastAPI, frontend on Next.js + TypeScript + shadcn/ui, deployed on Cloudflare Workers + Render.
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-
-<!-- <img height="165" src="https://github-readme-stats.vercel.app/api?username=akash-dhanwate&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=akash-dhanwate&layout=compact&theme=tokyonight&hide_border=true" /> -->
-
-<!-- <img src="https://github-readme-streak-stats.herokuapp.com/?user=akash-dhanwate&theme=tokyonight&hide_border=true" /> -->
-<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com/?user=akash-dhanwate&theme=tokyonight&hide_border=true" alt="GitHub Streak" /></a>
-
-<!-- <img src="https://github-readme-activity-graph.vercel.app/graph?username=akash-dhanwate&theme=tokyo-night&hide_border=true" width="100%"/> -->
-
-</div>
-
----
-
-### 🐍 Contribution Snake
-
-<!-- <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Akash-Dhanwate/AKASH-DHANWATE/output/github-snake-light.svg?v=1">
-    <img src="https://raw.githubusercontent.com/Akash-Dhanwate/AKASH-DHANWATE/output/github-snake-dark.svg?v=1" alt="Purple neon GitHub contribution snake" width="100%">
-  </picture>
-</div> -->
 <picture>
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/Akash-Dhanwate/AKASH-DHANWATE/output/github-snake-light.svg?v=1">
-  <img
-    src="https://raw.githubusercontent.com/Akash-Dhanwate/AKASH-DHANWATE/output/github-snake-light.svg?v=1"
-    alt="Purple neon GitHub contribution snake"
-    width="100%">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/hero-mobile-static.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/hero-static.svg">
+  <source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg">
+  <img src="./assets/hero.svg" alt="Akash Dhanwate — From curiosity to working systems. An animated AD monogram connects AI, data, and software." width="100%">
 </picture>
----
 
-### ⌥ Contact With ME ❥
+# Akash Dhanwate
 
-<div align="center">
-  <a href="mailto:akashdhanawate117@gmail.com"><img src="https://img.shields.io/badge/Email-akashdhanawate117%40gmail.com-0b0711?style=for-the-badge&logo=gmail&logoColor=white&labelColor=7e22ce" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/4kashdhanwate"><img src="https://img.shields.io/badge/LinkedIn-4kashdhanwate-0b0711?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=7e22ce" alt="LinkedIn"></a>
-  <a href="https://github.com/Akash-Dhanwate"><img src="https://img.shields.io/badge/GitHub-Akash--Dhanwate-0b0711?style=for-the-badge&logo=github&logoColor=white&labelColor=7e22ce" alt="GitHub"></a>
-</div>
+**AI & Data Science student. Curious about intelligence. Serious about building.**
 
----
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/focus-mobile-static.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/focus-static.svg">
+  <source media="(max-width: 600px)" srcset="./assets/focus-mobile.svg">
+  <img src="./assets/focus.svg" alt="Currently exploring AI and machine learning; data, models and decisions; and full-stack systems." width="100%">
+</picture>
 
-<div align="center">
+<p>
+  <a href="mailto:akashdhanawate117@gmail.com"><img src="./assets/links/email.svg" alt="Email Akash Dhanwate" height="37" width="132"></a>
+  <a href="https://www.linkedin.com/in/4kashdhanwate"><img src="./assets/links/linkedin.svg" alt="Connect with Akash on LinkedIn" height="37" width="132"></a>
+  <a href="https://github.com/Akash-Dhanwate"><img src="./assets/links/github.svg" alt="Explore Akash’s GitHub repositories" height="37" width="132"></a>
+  <a href="https://x.com/akash_dhanwate7"><img src="./assets/links/x.svg" alt="Follow Akash on X" height="37" width="146"></a>
+</p>
 
-![Profile Views](https://komarev.com/ghpvc/?username=akash-dhanwate&color=00D9FF&style=for-the-badge&label=PROFILE+VIEWS)
+[Selected work](#selected-work) · [Engineering profile](#engineering-profile) · [Technical inventory](#technical-inventory) · [Activity](#github-activity) · [Contact](#lets-build-something-useful)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=100&section=footer" />
+## Selected work
 
-</div>
+### 01 / GitHub Metrics Analytics Dashboard
+
+**Turning GitHub activity into a clearer picture of a developer’s work.**
+
+A full-stack dashboard for exploring profiles, repositories, languages, and contributions. Built with **Next.js, React, TypeScript, and FastAPI**, using GitHub’s REST API for profile analytics and GraphQL for contribution history.
+
+<a href="https://github-metrics.learnaids2025.workers.dev/"><img src="./assets/github-metrics.jpg" alt="Actual GitHub Metrics homepage showing profile search, analytics, contribution history, and developer comparison." width="100%"></a>
+
+- Compare two developers across repositories, stars, forks, followers, and language usage.
+- Explore contribution heatmaps, repository insights, and profile analytics.
+- Download profile data as JSON or print a summary; cache repeated API requests.
+
+`Next.js` `TypeScript` `FastAPI` `GitHub REST + GraphQL` `Cloudflare Workers`
+
+[Explore the code ↗](https://github.com/Akash-Dhanwate/github-metrics) · [Open the demo ↗](https://github-metrics.learnaids2025.workers.dev/)
+
+### 02 / House Price Prediction
+
+**A practical experiment in learning from tabular data.**
+
+A Python regression project using the Kaggle House Prices dataset. The repository includes preprocessing, feature engineering, exploratory analysis, a **Random Forest** training pipeline, and a prediction script.
+
+`Python` `Pandas` `NumPy` `scikit-learn` `Jupyter`
+
+[Inspect the model and workflow ↗](https://github.com/Akash-Dhanwate/HousePrice-Prediction-Model)
+
+### 03 / Smart Notes
+
+**Small product. Useful constraints. Framework-free implementation.**
+
+A notes app built with HTML, CSS, and JavaScript: create, edit, and delete notes; pin important entries; search or filter by category; and persist notes and theme preferences in **localStorage**.
+
+`JavaScript` `HTML` `CSS` `Browser storage`
+
+[Explore the implementation ↗](https://github.com/Akash-Dhanwate/Smart-Notes-App)
+
+[Browse all public repositories →](https://github.com/Akash-Dhanwate?tab=repositories)
+
+## Engineering profile
+
+I’m **Akash Suresh Dhanwate**, pursuing a **B.Tech in Artificial Intelligence and Data Science at Sanjivani University**, Maharashtra, India. I learn by building useful projects, understanding the decisions behind them, and improving what I ship.
+
+<!-- Study year intentionally omitted: the published README says "2rd Year"; current year needs confirmation. -->
+
+| Direction | Current focus |
+| :--- | :--- |
+| **Building** | GitHub Metrics: connecting a Python API, a typed frontend, and useful visualizations. |
+| **Learning** | Machine learning, neural networks, probability, statistics, and data analysis. |
+| **Practicing** | Data structures and algorithms in C++ and Python; software design fundamentals. |
+| **Working toward** | Software engineering and ML opportunities, stronger open-source contributions, and products that solve real problems. |
+
+Long term, I want to become an exceptional engineer and contribute at a leading technology company such as Google or Microsoft. Along the way, I’m interested in freelance web development and practical digital solutions for businesses.
+
+## Technical inventory
+
+Tools I use across projects and learning. Inclusion reflects exposure and practice, not an expertise rating.
+
+| Area | Technologies |
+| :--- | :--- |
+| **Languages** | `Python` · `Java` · `C++` · `JavaScript` · `TypeScript` |
+| **Web & APIs** | `HTML5` · `CSS3` · `React` · `Next.js` · `Tailwind CSS` · `FastAPI` |
+| **Data & ML** | `NumPy` · `Pandas` · `scikit-learn` · `PyTorch` (learning) |
+| **Tools & deployment** | `Git` · `GitHub` · `Linux` · `Cloudflare` · `Render` |
+
+## GitHub activity
+
+An animated trail through my public contribution grid. A stored snapshot of the work along the way.
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./output/github-snake-dark-static.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./output/github-snake-static.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./output/github-snake-dark.svg">
+  <img src="./output/github-snake.svg" alt="A snake traverses Akash Dhanwate’s GitHub contribution grid. This is a stored contribution snapshot, not a live counter." width="100%">
+</picture>
+
+[See the current contribution history on GitHub →](https://github.com/Akash-Dhanwate?tab=overview) · [Snapshot provenance](./output/snapshot.json)
+
+## Let’s build something useful
+
+Have an internship opportunity, an interesting engineering problem, or a business that needs a better web presence? I’d like to hear about it.
+
+**[akashdhanawate117@gmail.com](mailto:akashdhanawate117@gmail.com)** · [LinkedIn](https://www.linkedin.com/in/4kashdhanwate) · [X](https://x.com/akash_dhanwate7)
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/footer-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/footer-static.svg">
+  <img src="./assets/footer.svg" alt="Keep asking. Keep building. — Akash Dhanwate" width="100%">
+</picture>
